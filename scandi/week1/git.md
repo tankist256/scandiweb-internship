@@ -1,0 +1,1 @@
+- install git and read the documentation
