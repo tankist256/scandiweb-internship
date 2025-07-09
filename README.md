@@ -1,2 +1,2 @@
 # scandi-web-internship
-this my tree where i show what i study for this month
+this my notes where I show what I study for this month
