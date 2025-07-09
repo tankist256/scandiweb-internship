@@ -4,10 +4,10 @@
 ```html
 <html>
 <head>
-  <title>My Page: A Love-Hate Relationship</title>
+  <title>My Page:n1GeRia </title>
 </head>
 <body>
-  <h1>Welcome to my dysfunctional family of tags!</h1>
+  <h1>Welcome to my dysfunctional family of tags </h1>
 </body>
 </html>
 ```
