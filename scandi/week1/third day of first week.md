@@ -1,6 +1,6 @@
 - introduction to html and css
 - [[html]]
-- [[css]]
+- [[Css]]
 
 #day3
 [[fourth day of first week]]

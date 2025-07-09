@@ -68,7 +68,7 @@
 
 ---
 
-- Link to [[CSS]] for styling your HTML trauma.
+- Link to [[Css]] for styling your HTML trauma.
 - Use `#webdev` or `#html` tags to track progress.
 - Template for quick HTML snippets:
   ```html

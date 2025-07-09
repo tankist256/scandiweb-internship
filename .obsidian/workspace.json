@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "scandi/week1/html.md",
+                "file": "scandi/week1/fifth day of first week.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "html"
+              "title": "fifth day of first week"
             }
           }
         ]
@@ -167,6 +167,12 @@
   },
   "active": "b5b7c18d6923f37e",
   "lastOpenFiles": [
-    "scandi/week1/Git.md"
+    "scandi/week1/fifth day of first week.md",
+    "scandi/week1/first day of first week.md",
+    "scandi/week1/fourth day of first week.md",
+    "scandi/week1/Git.md",
+    "scandi/week1/Css.md",
+    "scandi/week1/cli.md",
+    "scandi/week1/html.md"
   ]
 }
