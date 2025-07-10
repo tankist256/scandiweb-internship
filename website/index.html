@@ -1,16 +1,89 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Information</title>
-</head>
-<body>
-    <p>You can reach Me at:</p>
+    <head>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            header {
+                background-color: #333;
+                color: white;
+                padding: 10px 0;
+            }
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            nav ul li {
+                display: inline;
+                margin-right: 20px;
+            }
+            nav ul li a {
+                color: white;
+                text-decoration: none;
+            }
+            main {
+                padding: 20px;
+            }
+            .forecast {
+                margin-bottom: 20px;
+            }
+            .day-forecast {
+                border-bottom: 1px solid #ccc;
+                padding-bottom: 10px;
+                margin-bottom: 10px;
+            }
 
-<ul>
-  <li><a href="https://example.com">Website</a></li>
-  <li><a href="mail@example.com">Email</a></li>
-  <li><a href="tel:+123456789">Phone</a></li>
-</ul>
-<html>
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Information</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <article class="forecast">
+                    <h1>Weather forecast for Seattle</h1>
+                    <article class="day-forecast">
+                        <h2>03 March 2018</h2>
+                        <p>Rain.</p>
+                        </article>
+                        <article class="day-forecast">
+                            <h2>04 March 2018</h2>
+                            <p>Periods of rain.</p>
+                        </article>
+                        <article class="day-forecast">
+                            <h2>05 March 2018</h2>
+                            <p>Heavy rain.</p>
+                        </article>
+                </article>
+            </section>
+            <section>
+                <p>You can reach Me at:</p>
+                <ul>
+                    <li><a href="https://example.com">Website</a></li>
+                    <li><a href="mailto:mail@example.com">Email</a></li>
+                    <li><a href="tel:+123456789">Phone</a></li>
+                </ul>
+            </section>
+        </main>
+        <footer></footer>
+
+        <article></article>
+        
+
+        
+    </body>
+</html>
