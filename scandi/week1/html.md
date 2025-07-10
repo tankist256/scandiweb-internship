@@ -3,12 +3,12 @@
 ## Basics
 ```html
 <html>
-<head>
-  <title>My Page:n1GeRia </title>
-</head>
-<body>
-  <h1>Welcome to my dysfunctional family of tags </h1>
-</body>
+	<head>
+	  <title>My Page:n1GeRia </title>
+	</head>
+		<body>
+		  <h1>Welcome to my dysfunctional family of tags </h1>
+		</body>
 </html>
 ```
 
@@ -78,6 +78,4 @@
     <body>{{Content}}</body>
   </html>
   ```
-
-> [!joke] Final Wisdom
-> "Writing HTML without CSS is like wearing socks with sandals—**functional**, but deeply unsettling."
+[[Semnatic Markup]]
