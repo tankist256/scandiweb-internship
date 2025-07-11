@@ -1,2 +1,17 @@
 # scandiweb-internship
-this my notes where I show what I study for this month
+My study progress for this month
+---
+
+## Learnd ![26%](https://progress-bar.xyz/26)
+```learnd
+how to use obsidian
+what is markdown
+```
+---
+
+## Still learning <progress>
+```still learning
+how to write on JavaScript
+Html
+Css
+```
