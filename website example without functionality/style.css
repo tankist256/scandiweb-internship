@@ -1,0 +1,19 @@
+*  {
+    box-sizing: border-box;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container .lst-forecast {
+    grid-column: 1 / -5;
+    
+}
+.main-nav {
+    display: flex;
+    padding: 0 20px;
+    justify-content: center;
+    align-items: center;
+
+}

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "scandi/week1/Semnatic Markup.md",
+                "file": "scandi/week1/html.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Semnatic Markup"
+              "title": "html"
             }
           }
         ]
@@ -165,10 +165,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d11aa036338e2420",
+  "active": "b5b7c18d6923f37e",
   "lastOpenFiles": [
-    "scandi/week1/html.md",
+    "website example without functionality/style.css",
+    "website example without functionality/index.html",
+    "website example without functionality",
     "scandi/week1/Semnatic Markup.md",
+    "scandi/week1/html.md",
     "scandi/week2/js.md",
     "website/style.css",
     "website/index.html",
