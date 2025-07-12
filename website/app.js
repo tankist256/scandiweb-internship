@@ -27,7 +27,7 @@ function handleAddToCart(event, itemId) {
     const item = catalog[itemId];
     if (item) {
         cartState.items.push(item);
-        updateCartUI();
+        UpdateCartUI();
     }
 }
 function iniCatalog() {
@@ -39,5 +39,5 @@ function iniCatalog() {
 }
 document.addEventListener("DOMContentLoaded", () => {
     iniCatalog();
-    UpdateCartUIpdateCartUI();
+    UpdateCartUI();
 });

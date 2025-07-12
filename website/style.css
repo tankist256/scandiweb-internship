@@ -12,3 +12,17 @@ body {
     margin-bottom: 20px;
     border: 1px solid #ccc;
 }
+
+.catalog ul {
+    list-style: none;
+    padding: 0;
+}
+.catalog li {
+    margin: 10px 0;
+}
+.catalog a {
+    margin-right: 10px;
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
