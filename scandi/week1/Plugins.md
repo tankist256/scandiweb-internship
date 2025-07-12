@@ -7,4 +7,3 @@ ________________________________________________________________________
 1. [Git](obsidian://show-plugin?id=obsidian-git) - Git integration 
 2. [Chronology](obsidian://show-plugin?id=chronology) - Provides a sidebar with a calendar view of your notes
 3. [File Order](obsidian://show-plugin?id=file-order) - use drag and drop that update file order in directory
-4. [Presists]
