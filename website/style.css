@@ -1,19 +1,14 @@
 *{
     box-sizing: border-box;
 }
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
 
-body{
-    background-color: black;
-}
 .cart {
-    color: whitesmoke;
-}
-.cart-status {
-    color: whitesmoke;
-}
-.catalog{
-    color: whitesmoke;
-}
-h2 {
-    color: whitesmoke;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
 }
