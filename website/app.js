@@ -30,4 +30,14 @@ function handleAddToCart(event, itemId) {
         updateCartUI();
     }
 }
-
+function iniCatalog() {
+    const links = document.querySelectorAll(".catalog ul li a");
+    links.forEach((link, index) => {
+        const itemId = index + 1;
+        link.addEventListener("click", (e) => handleAddToCart(e, itemId));
+    });
+}
+document.addEventListener("DOMContentLoaded", () => {
+    iniCatalog();
+    UpdateCartUIpdateCartUI();
+});
