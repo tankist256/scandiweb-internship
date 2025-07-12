@@ -11,10 +11,14 @@
             "id": "b5b7c18d6923f37e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "scandi/week2/virtual machine.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "virtual machine"
             }
           }
         ]
@@ -163,10 +167,10 @@
   },
   "active": "b5b7c18d6923f37e",
   "lastOpenFiles": [
+    "Vagrantfile",
     "scandi/week2/js.md",
     "scandi/week2/virtual machine.md",
     "scandi/week2/website that done for this week.md",
-    "Vagrantfile",
     "scandi/week2/fifth day of second week.md",
     "scandi/additional notes/conclusion for the week.md",
     "scandi/week2/fourth day of second week.md",
