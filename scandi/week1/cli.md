@@ -34,24 +34,3 @@ ________________________________________________________________________
 > `rm -rf /` is **very fckn dangerous**! <h1>Deletes everything on drive recursively.</h1>
 
 ---
-
-### Advanced Usage
-#### Pipes & Redirection
-```bash
-ls -l | grep ".md"      # Filter markdown files
-echo "Hello" > log.txt  # Overwrite file
-echo "World" >> log.txt # Append to file
-```
-
-### Permissions
-```bash
-chmod 755 script.sh
-```
-
-
-### System Monitoring
-```bash
-top                  # Live processes
-df -h                # Disk space
-free -h              # Memory usage
-```
