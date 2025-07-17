@@ -104,3 +104,5 @@ apt search php --names-only
 2. **Documentation**: Use `--help` or `man` for command details
 3. **File Operations**: Caution with `rm`—no recycle bin!
 4. **Piping/Grep**: Essential for parsing logs or large outputs
+[[linux and unix like systems]]
+[[Linux permision]]

@@ -1,0 +1,2 @@
+[[CLI basics]]
+[[Linux permision]]
