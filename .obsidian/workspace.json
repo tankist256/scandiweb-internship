@@ -16,20 +16,6 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "d44c752f62b7eda7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "scandi/week1/Semnatic Markup.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Semnatic Markup"
-            }
           }
         ]
       }
@@ -177,10 +163,23 @@
   },
   "active": "b5b7c18d6923f37e",
   "lastOpenFiles": [
-    "scandi/week2/fifth day of second week.md",
+    "scandi/week3/Web server setup with Nginx.md",
+    "scandi/week3/third day of third week.md",
+    "scandi/week3/Linux network statistics.md",
+    "scandi/week3/second day of third week.md",
+    "scandi/week3/linux process management.md",
+    "scandi/week3/Linux permision.md",
+    "scandi/week3/linux package management.md",
+    "scandi/week3/linux and unix like systems.md",
+    "scandi/week3/fourth day of third week.md",
+    "scandi/week3/first day of third week.md",
+    "scandi/week3/fifth day of third week.md",
+    "Package Management.md",
     "scandi/week2/CLI basics.md",
-    "scandi/week2/Virtual Machine.md",
     "scandi/week1/cli.md",
+    "Linux CLI Basics.md",
+    "scandi/week2/fifth day of second week.md",
+    "scandi/week2/Virtual Machine.md",
     "scandi/week2/website that done for this week.md",
     "scandi/week2/js.md",
     "scandi/week2/fourth day of second week.md",
@@ -190,26 +189,13 @@
     "scandi/week1/fifth day of first week.md",
     "scandi/week1/Css.md",
     "scandi/week1/Git.md",
-    "scandi/week1/Semnatic Markup.md",
-    "scandi/week1/html.md",
-    "scandi/week1/third day of first week.md",
-    "scandi/week1/Plugins.md",
-    "scandi/week1/obsidian.md",
-    "scandi/week1/Hotkeys.md",
-    "scandi/week1/References.md",
-    "scandi/week1/first day of first week.md",
     "Vagrantfile",
-    "scandi/additional notes/conclusion for the week.md",
     "website/style.css",
     "website/index.html",
     "website/app.js",
     "website",
     "website example without functionality/style.css",
     "website example without functionality/index.html",
-    "website example without functionality",
-    "scandi/week1/fourth day of first week.md",
-    "scandi/week1/second day of first week.md",
-    "scandi/week1/task list.md",
-    "README.md"
+    "website example without functionality"
   ]
 }
