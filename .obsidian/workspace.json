@@ -167,6 +167,7 @@
   },
   "active": "b5b7c18d6923f37e",
   "lastOpenFiles": [
+    "website/default",
     "scandi/week3/Web server setup with Nginx.md",
     "scandi/week3/third day of third week.md",
     "scandi/week3/Linux network statistics.md",
@@ -192,7 +193,6 @@
     "scandi/week2/first day of second week.md",
     "scandi/week1/fifth day of first week.md",
     "scandi/week1/Css.md",
-    "scandi/week1/Git.md",
     "Vagrantfile",
     "website/style.css",
     "website/index.html",
