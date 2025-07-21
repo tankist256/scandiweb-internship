@@ -2,7 +2,7 @@
 My study progress for this month
 ---
 
-## Learnd ![40%](https://progress-bar.xyz/26)
+## Learnd ![41%](https://progress-bar.xyz/41)
 ```learnd
 how to use obsidian
 what is markdown
