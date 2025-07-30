@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "week1/html.md",
+                "file": "week3/PHP Setup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "html"
+              "title": "PHP Setup"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "a3e49a9fd85a3e89",
@@ -170,12 +170,20 @@
   },
   "active": "de20a6476bee0893",
   "lastOpenFiles": [
+    "week3/Web server setup with Nginx.md",
+    "week3/Linux permision.md",
+    "week3/linux and unix like systems.md",
+    "week3/first day of third week.md",
+    "scandi summer intership/third week.md",
+    "scandi summer intership/scandiweb practice month.md",
+    "scandi summer intership/second week.md",
+    "week3/third day of third week.md",
+    "week1/html.md",
     "week1/css.md",
     "week1/Git.md",
     "week1/cli.md",
     "GitHub.md",
     "week1/obsidian.md",
-    "week1/html.md",
     "week1/headings.md",
     "week1/Plugins.md",
     "week1/Hotkeys.md",
@@ -185,7 +193,6 @@
     "week1/Pasted image 20250708191749.png",
     "week1/References.md",
     "week5/fifth day of fifth week.md",
-    "scandi summer intership/scandiweb practice month.md",
     "scandi summer intership/fifth week.md"
   ]
 }

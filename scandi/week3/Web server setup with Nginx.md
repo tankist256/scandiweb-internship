@@ -10,7 +10,7 @@ sudo apt install nginx
 
 ### 2. Verify Installation  
 ```bash
-nginx -v                  # Check version
+nginx -v                  # Check vers ion
 systemctl status nginx    # Verify service is running
 ```
 
