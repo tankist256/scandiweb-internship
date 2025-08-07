@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "PHP Setup"
             }
+          },
+          {
+            "id": "203868e2ebeacb0c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,15 +179,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "de20a6476bee0893",
+  "active": "a5e703be9566739d",
   "lastOpenFiles": [
+    "Links.md",
+    "week3/PHP Setup.md",
+    "week3/database setup.md",
     "week3/Web server setup with Nginx.md",
     "week3/Linux permision.md",
     "week3/linux and unix like systems.md",
     "week3/first day of third week.md",
-    "scandi summer intership/third week.md",
-    "scandi summer intership/scandiweb practice month.md",
-    "scandi summer intership/second week.md",
+    "week1/scandi summer intership/third week.md",
+    "week1/scandi summer intership/scandiweb practice month.md",
+    "week1/scandi summer intership/second week.md",
     "week3/third day of third week.md",
     "week1/html.md",
     "week1/css.md",
@@ -193,6 +207,6 @@
     "week1/Pasted image 20250708191749.png",
     "week1/References.md",
     "week5/fifth day of fifth week.md",
-    "scandi summer intership/fifth week.md"
+    "week1/scandi summer intership/fifth week.md"
   ]
 }

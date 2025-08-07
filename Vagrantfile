@@ -13,7 +13,6 @@ Vagrant.configure("2") do |config|
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
   config.vm.box = "ubuntu/jammy64"
-  config.vm.box_version = "20241002.0.0"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
@@ -33,7 +32,7 @@ Vagrant.configure("2") do |config|
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
-  config.vm.network "private_network", ip: "192.168.56.0"
+   config.vm.network "private_network", ip: "192.168.56.0"
 
   # Create a public network, which generally matched to bridged network.
   # Bridged networks make the machine appear as another physical device on
@@ -44,7 +43,7 @@ Vagrant.configure("2") do |config|
   # the path on the host to the actual folder. The second argument is
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
-  config.vm.synced_folder "./scandiweb_test", "/vagrant"
+   config.vm.synced_folder "./website", "/vagrant"
 
   # Disable the default share of the current code directory. Doing this
   # provides improved isolation between the vagrant box and your host
@@ -68,13 +67,30 @@ Vagrant.configure("2") do |config|
   # View the documentation for the provider you are using for more
   # information on available options.
 
-  # Enable provisioning with a shell script. Additional provisioners such as
+  # Enable provisioning with a shell script. Additional provisioners such as4
   # Ansible, Chef, Docker, Puppet and Salt are also available. Please see the
   # documentation for more information about their specific syntax and use.
    config.vm.provision "shell", inline: <<-SHELL
      apt update
-     apt install -y nginx
-     cp /vagrant/default /etc/nginx/sites-available/default
-     nginx -s reload
+     apt install -y nginx php8.1 php8.1-fpm mysql-client mysql-server
+
+     cp /vagrant/default /etc/nginx/sites-available
+     cp /vagrant/www.conf /etc/php/8.1/fpm/pool.d
+     cp /vagrant/php.ini /etc/php/8.1/fpm
+     cp /vagrant/my.cnf /etc/mysql
+
+     # cp /vagrant/default /etc/nginx/sites-enabled/default
+
+    mysqladmin -uroot password root
+    mysql -uroot -proot -e "
+        CREATE USER 'root'@'%' IDENTIFIED BY 'root';
+        GRANT ALL PRIVILEGES ON * . * TO 'root'@'%';
+        FLUSH PRIVILEGES;
+    " &&
+
+    # Create database named victoria-internship
+    mysqladmin create victoria-internship
+
+    systemctl restart nginx php8.1-fpm mysql
    SHELL
 end
